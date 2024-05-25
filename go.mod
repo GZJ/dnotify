@@ -1,8 +1,11 @@
-module dnotify
+module github.com/gzj/dnotify
 
 go 1.21.0
 
-require github.com/gen2brain/beeep v0.0.0-20230907135156-1a38885a97fc
+require (
+	github.com/gen2brain/beeep v0.0.0-20230907135156-1a38885a97fc
+	gopkg.in/toast.v1 v1.0.0-20180812000517-0a84660828b2
+)
 
 require (
 	github.com/go-toast/toast v0.0.0-20190211030409-01e6764cf0a4 // indirect
